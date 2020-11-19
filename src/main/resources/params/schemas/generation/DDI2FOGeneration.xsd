@@ -29,10 +29,10 @@
         <xs:sequence>
             <xs:element name="Row" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
-                    <xs:sequence>
+                    <xs:all>
                         <xs:element name="DefaultSize" type="xs:int" default="10"/>
                         <xs:element name="MinimumEmpty" type="xs:int" default="1"/>
-                    </xs:sequence>
+                    </xs:all>
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
